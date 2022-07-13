@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/all.js"></script>
+    <title>Document</title>
+</head>
+
+<body class="mainRegister">
+    <nav class="navbar px3 navbar-expand-lg " id="navBar">
+        <a href="#" class="navbar-brand">
+            <img src="img/gearLogo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar">
+            <span class="navbar-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse " id="myNavBar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link ">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Inventory</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Register.html" class="nav-link">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">Login</a>
+                </li>
+
+            </ul>
+            <!-- social -->
+            <!-- <div class="nav-icons d-none d-lg-block ">
+                <a href="#" class="nav-icon">
+                    <i class="fab fa-facebook "></i>
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="fab fa-instagram "></i>
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="fab fa-twitter "></i>
+                </a>
+            </div> -->
+            <!-- end social -->
+
+        </div>
+    </nav>
+    <section class="register">
+        <div id="log"></div>
+        <h3>Register your account</h3>
+
+        <!-- <form name="myForm" action="#"  method="POST" onsubmit="return MyFunction()" > -->
+        <form name="myForm" action="#" method="POST" id="frm1">
+            <input id="userName" type="text" placeholder="username" name="userName">
+            <span class="userErr" style="color: red;"></span>
+            <input id="email" type="email" placeholder="email" name="emailName">
+            <span class="emailErr" style="color: red;"></span>
+            <input id="password" type="password" placeholder="password" id="Passnum">
+            <span class="passErr" style="color: red;"></span>
+            <!--  -->
+            <!-- <a href="#"><input type="submit" value="login" ></a> -->
+            <br>
+            <button id="mybtn"> Sign in!</button>
+            <span class="signin-status" style="color: green;"></span>
+
+
+
+
+        </form>
+        <hr />
+
+        <a href="Register.html" class=account> create account</a>
+    </section>
+</body>
+<script src="register-script.js"></script>
+
+</html>
